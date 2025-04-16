@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Latina Lift | Fitness Studios</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="main-header">
+        <div class = "first-container">
+      <h1 class="title">Latina Lift</h1>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="#home" class="navbar_link" id="home-page">Home</a></li>
+        <li><a href="#about" class="navbar_link" id="about-page">About</a></li>
+        <li><a href="#businesses" class="navbar_link" id="biz-page">Businesses</a></li>
+      </ul>
+      <div class="search-container">
+        <input type="text" id="searchInput" class="search-box" placeholder="Search businesses..." />
+        <button class="search-button" onclick="searchBusiness()">🔍</button>
+      </div>
+    </nav>
+</div>
+    <!-- HOME -->
+    <section class="home1" id="home">
+      <div class="home1__container">
+        <h1 class="home1__heading">Empowering Latina-Owned Businesses</h1>
+        <p class="home1__description">Discover businesses run by Latina entrepreneurs.</p>
+      </div>
+    </section>
+
+    <!-- SECTION -->
+    <section id="about" class="center-head">
+      <h2>About Latina Lift</h2>
+      <p>Latina Lift is a directory of a variety of businesses founded by Latina women across California and beyond.</p>
+    </section>
+
+    <!-- STATS -->
+    <section id="summary" class="center-head2"></section>
+
+    <!-- CARDS -->
+    <section id="businesses" class="center-head3">
+
+      <h2 class = "home3__heading">Studios & Businesses</h2>
+      <p>Type of Businesses:</p>
+
+      <div id="button-container">
+        <button id="cafe-btn">Cafe</button>
+        <button id="res-btn">Restaurant</button>
+        <button id="fitness-btn">Fitness/Wellness</button>
+        <button id="social-btn">Social</button>
+        <button id="bakery-btn">Bakery</button>
+        <button id="pro-btn">Professional</button>
+        <button id="all-btn">Show All</button>
+
+    </div>
+    <p class="search2-label">Please search by state, city or county:</p>
+
+    <div class="search2-container">
+        <input type="text" id="searchLocationInput" class="search2-box" placeholder="Search location..." />
+        <button class="search2-button" onclick="search_location()">🔍</button>
+      </div>
+
+      <div id="card-container" class="card-grid"></div>
+      
+    </section>
+  </body>
+</html>
