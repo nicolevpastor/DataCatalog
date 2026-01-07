@@ -111,7 +111,7 @@ const businesses = [
         name: "Boston Amigas",
         category: "Social",
         description: "Social group for women to find friends",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQrzHYJHF7Utixger76aQxrn0lewEE3Xs4g&s",
+        img: "./bostonamigas.png",
         location: "Boston, MA",
         offerings: ["Events, Outings"],
         members: 90,
